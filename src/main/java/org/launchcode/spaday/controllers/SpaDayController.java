@@ -66,6 +66,7 @@ public class SpaDayController {
         model.addAttribute("skintype", skintype);
         model.addAttribute("manipedi", manipedi);
         model.addAttribute("appropriateFacials", appropriateFacials);
+        model.addAttribute("manipedi", manipedi);
         return "menu";
     }
 }
